@@ -1,0 +1,72 @@
+.footer {
+    background-color: #f5f7fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .highlight-blue {
+    color: #5a67d8;
+  }
+  
+  .highlight-orange {
+    color: #ed8936;
+  }
+  
+  .social-icons {
+    margin: 20px 0;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .footer-links h4 {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    color: #666;
+  }
+  
+  .devfolio-logo {
+    color: #5a67d8;
+    font-weight: bold;
+  }
+  
+  .airplane-banner {
+    font-size: 0.9rem;
+    transform: rotate(-10deg);
+    color: #333;
+  }
+  

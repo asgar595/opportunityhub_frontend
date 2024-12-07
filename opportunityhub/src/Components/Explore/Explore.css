@@ -1,0 +1,181 @@
+/* Basic styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    color: #ddd;
+  }
+  
+  /* Mobile menu toggle */
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px;
+  }
+  /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Layout */
+  .explore-container {
+    display: flex;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .banner {
+    flex: 3;
+    background: linear-gradient(45deg, #3b82f6, #9333ea);
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    height: 600px;
+  }
+  .banner1 {
+    flex: 3;
+    background: linear-gradient(45deg, #3b82f6, #9333ea);
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    height: auto;
+    width: 80%; /* Adjust this value as needed */
+    max-width: 600px; /* Optional: set a maximum width */
+    margin: 0 auto; /* Center the banner */
+}
+
+
+
+  
+  .banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  .banner1 img{
+    width:35rem;
+    border-radius: 20px;
+  }
+  
+  .banner-tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .tag {
+    background-color: #ffd700;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .banner-dates {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: #eee;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+    
+  }
+  .sidebar .title1  {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:grey;
+    
+  }
+  .sidebar p{
+    margin-top: 20px;
+  }
+  
+  .region-list {
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .region-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .region-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  }
+  
