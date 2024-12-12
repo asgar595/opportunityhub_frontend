@@ -61,29 +61,8 @@ Opportunity Hub is a React-based web application designed to serve as a centrali
 
 ---
 
-## Folder Structure
 
-```
-|-- public
-|   |-- index.html
-|-- src
-|   |-- components
-|   |   |-- Navbar.jsx
-|   |   |-- EventCard.jsx
-|   |   |-- HackathonList.jsx
-|   |-- pages
-|   |   |-- HomePage.jsx
-|   |   |-- HackathonPage.jsx
-|   |-- styles
-|   |   |-- App.css
-|   |-- App.js
-|   |-- index.js
-|-- package.json
-```
 
----
-
-## Screenshots
 
 ### Home Page
 ![Home Page Screenshot](#)
