@@ -64,13 +64,8 @@ Opportunity Hub is a React-based web application designed to serve as a centrali
 
 
 
-### Home Page
-![Home Page Screenshot](#)
 
-### Hackathon Page
-![Hackathon Page Screenshot](#)
 
----
 
 ## Contributing
 
